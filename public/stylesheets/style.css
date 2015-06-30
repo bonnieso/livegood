@@ -1,0 +1,151 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#wrap{
+  width: 950px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul{
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  margin: 10px;
+}
+
+.second-half{
+  max-width: 320px;
+}
+
+.slider{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.email-icon {
+  float: right;
+  background: url(/images/icon_mail.gif) no-repeat 3px 3px;
+  width: 28px;
+  border: 0;
+  height: 23px;
+  cursor: pointer;
+  text-indent: -999em;
+}
+
+.email-input {
+  background: none;
+  color: #ACACAC;
+  font-size: 12px;
+  border: 0;
+  height: 23px;
+  width: 146px;
+  line-height: 23px;
+  padding-left: 4px;
+  float: left;
+}
+
+.validate {
+  width: 183px;
+  overflow: hidden;
+  height: 23px;
+  line-height: 23px;
+  border-top: 1px solid #afbc9e;
+  border-left: 1px solid #afbc9e;
+  border-bottom: 1px solid #e2e1de;
+  border-right: 1px solid #e2e1de;
+}
+
+.bag{
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.logo-wrap{
+  display: inline-block;
+  width: 100%;
+}
+
+.logo-left{
+  float: left;
+}
+
+.logo-right{
+  float: right;
+}
+
+.login{
+  margin-left: 100px;
+}
+
+.email-login{
+  display: inline-flex;
+  width: 100%;
+}
+
+.bag-align{
+  margin-left: 190px;
+}
+
+#footer {
+  margin-top: 30px;
+  border-top: 1px dotted #b1c297;
+  overflow: hidden;
+  padding-bottom: 40px;
+  padding-top: 12px;
+}
+
+.footer-nav{
+  text-transform: uppercase;
+  margin-left: 9.3%;
+  font-size: .9em;
+}
+
+.copyright-right{
+  margin-left: 17%;
+  font-size: .8em;
+}
+
+.footer-bottom{
+  margin-top: 25px;
+}
+
+.mission-nav{
+  list-style: none;
+  text-align: left;
+}
+
+.clear-left{
+  margin-left: -65px !important;
+}
+
+.mission-left{
+  background-color: #F0EFEB;
+  height: 500px;
+}
+
+.mission-bottom{
+  margin-top: 30px;
+  border-top: 1px dotted #b1c297;
+  padding-bottom: 40px;
+  padding-top: 12px;
+}
+
+.mission-last{
+  max-width: 270px;
+}
+
+.organic-right{
+  float: right;
+  margin-left: 10px;
+}
+
+.bottom-space{
+  margin-bottom: 20px;
+}

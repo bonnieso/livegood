@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+  body
+   .container
+      #wrap
+        div.logo-wrap
+          span.logo-left
+            img(src="images/lglogo.png")
+          span.logo-right
+            div.email-login
+              span
+                form.validate
+                  input.email-input(placeholder="Email: Join our list!")
+                  input.email-icon
+              span.login Login
+            div.bag-align
+              span.bag Shopping Bag
+              span
+                img(src="images/icon_bag.gif")
+        nav
+          ul
+            li Products
+            li Our Mission
+            li Sustainability
+            li Dye Process
+            li Olympic Gold Standard
+            li Press
+        block content
+        
+        footer#footer
+          div.email-login
+            span.bag Follow Us:&nbsp;&nbsp;&nbsp;
+              img(src="images/facebook.png")
+              img(src="images/twitter.png")
+              img(src="images/pinterest.png")
+            span.footer-nav
+              nav
+                ul
+                  li Home
+                  li Blog
+                  li FAQ
+                  li Wholesale
+                  li Shipping & Return Policy
+                  li Terms of Use
+                  li Contact Us
+          div.footer-bottom
+            span 
+            img(src="images/like.png")
+            | 9,576 people like this. Sign Up to see what your friends like.
+            span.copyright-right COPYRIGHT © 2011-2012 LIVE GOOD, INC. ALL RIGHTS RESERVED
