@@ -127,7 +127,7 @@ nav li {
 
 .mission-left{
   background-color: #F0EFEB;
-  height: 500px;
+  height: 850px;
 }
 
 .mission-bottom{
@@ -148,4 +148,33 @@ nav li {
 
 .bottom-space{
   margin-bottom: 20px;
+}
+
+.title h2 {
+  text-transform: uppercase;
+  color: #6ab255;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  font-family: Georgia, "Times New Roman", Times, serif; !important
+}
+
+.h3 {
+  color: #575757;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 27px;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+.info_wrap {
+  color: #64891d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.xs-heading {
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #64891d;
 }
